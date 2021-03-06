@@ -1,0 +1,47 @@
+{
+    "terminal.integrated.shell.windows": "cmd.exe",
+    "terminal.integrated.shellArgs.windows":[
+        "/K",
+        "D:/ferzm/esp/esp-idf/export.bat"
+    ],
+    "C_Cpp.clang_format_style": "Visual Studio",
+    "editor.formatOnSave": false,
+    "[cpp]": {
+        "editor.quickSuggestions": true
+    },
+    "[c]": {
+        "editor.quickSuggestions": true
+    },
+    "C_Cpp.intelliSenseEngineFallback": "Enabled",
+    "files.associations": {
+        "freertos.h": "c",
+        "portable.h": "c",
+        "portmacro.h": "c",
+        "esp_newlib.h": "c",
+        "esp_system.h": "c",
+        "esp_task.h": "c",
+        "freertosconfig.h": "c",
+        "xtensa_timer.h": "c",
+        "esp_log.h": "c",
+        "cmath": "cpp",
+        "complex": "cpp",
+        "random": "cpp",
+        "xlocnum": "cpp",
+        "ledc.h": "c",
+        "esp_wifi.h": "c",
+        "wifi_connect.h": "c",
+        "esp_wifi_default.h": "c",
+        "esp_event.h": "c",
+        "esp_event_legacy.h": "c",
+        "esp_wifi_types.h": "c",
+        "esp_wifi_types_private.h": "c",
+        "nvs.h": "c"
+    },
+    "idf.portWin": "COM3",
+    "idf.espIdfPath": "D:\\ferzm\\esp\\esp-idf",
+    "idf.espIdfPathWin": "D:\\ferzm\\esp\\esp-idf",
+    "idf.pythonBinPath": "C:\\Users\\ferzm\\.espressif\\python_env\\idf4.3_py3.8_env\\Scripts\\python.exe",
+    "idf.pythonBinPathWin": "C:\\Users\\ferzm\\.espressif\\python_env\\idf4.3_py3.8_env\\Scripts\\python.exe",
+    "idf.customExtraPaths": "C:\\Users\\ferzm\\.espressif\\tools\\xtensa-esp32-elf\\esp-2020r3-8.4.0\\xtensa-esp32-elf\\bin;C:\\Users\\ferzm\\.espressif\\tools\\xtensa-esp32s2-elf\\esp-2020r3-8.4.0\\xtensa-esp32s2-elf\\bin;C:\\Users\\ferzm\\.espressif\\tools\\xtensa-esp32s3-elf\\esp-2020r3-8.4.0\\xtensa-esp32s3-elf\\bin;C:\\Users\\ferzm\\.espressif\\tools\\esp32ulp-elf\\2.28.51-esp-20191205\\esp32ulp-elf-binutils\\bin;C:\\Users\\ferzm\\.espressif\\tools\\esp32s2ulp-elf\\2.28.51-esp-20191205\\esp32s2ulp-elf-binutils\\bin;C:\\Users\\ferzm\\.espressif\\tools\\cmake\\3.16.4\\bin;C:\\Users\\ferzm\\.espressif\\tools\\openocd-esp32\\v0.10.0-esp32-20200709\\openocd-esp32\\bin;C:\\Users\\ferzm\\.espressif\\tools\\ninja\\1.10.0;C:\\Users\\ferzm\\.espressif\\tools\\idf-exe\\1.0.1;C:\\Users\\ferzm\\.espressif\\tools\\ccache\\3.7;C:\\Users\\ferzm\\.espressif\\tools\\dfu-util\\0.9\\dfu-util-0.9-win64;",
+    "idf.customExtraVars": "{\"OPENOCD_SCRIPTS\":\"C:\\\\Users\\\\ferzm\\\\.espressif\\\\tools\\\\openocd-esp32\\\\v0.10.0-esp32-20200709\\\\openocd-esp32\\\\share\\\\openocd\\\\scripts\"}"
+}

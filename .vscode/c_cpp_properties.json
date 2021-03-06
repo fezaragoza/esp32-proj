@@ -1,0 +1,38 @@
+{
+    "configurations": [
+        {
+            "name": "Win64",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "includePath": [
+                "${config:idf.espIdfPath}/components/**",
+                "${config:idf.espIdfPathWin}/components/**",
+                "${config:idf.espIdfPath}/examples/**",
+                "${config:idf.espIdfPathWin}/examples/**",
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/build/config/**",
+                "${workspaceFolder}/main/**",
+                "${workspaceFolder}/components/**",
+                "${env:IDF_TOOLS_PATH}/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/include/**",
+                "${env:IDF_PATH}/components/newlib/platform_include/sys/**",
+                "D:/ferzm/esp/esp-idf/components/newlib/platform_include"
+            ],
+            "browse": {
+                "path": [
+                    "${config:idf.espIdfPath}/components",
+                    "${config:idf.espIdfPathWin}/components",
+                    "${config:idf.espIdfPath}/examples",
+                    "${config:idf.espIdfPathWin}/examples",
+                    "${workspaceFolder}",
+                    "${workspaceFolder}/build/config/",
+                    "${workspaceFolder}/main/",
+                    "${workspaceFolder}/components/",
+                    "${env:IDF_TOOLS_PATH}/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/include/",
+                    "${env:IDF_PATH}/components/newlib/platform_include/sys/"
+                ],
+                "limitSymbolsToIncludedHeaders": false
+            }
+        }
+    ],
+    "version": 4
+}
